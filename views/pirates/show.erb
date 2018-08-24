@@ -3,9 +3,9 @@
 <p>Pirate height: <%= @pirate.height %></p>
 
 <% @ships.each_with_index do |ship, index| %>
-  <h2>Ship 1 name: <%= ship.name %></h2>
-  <h2>Ship 1 type: <%= ship.type %></h2>
-  <h2>Ship 1 booty: <%= ship.booty %></h2>
+  <h2>Ship <%= index +1 %> name: <%= ship.name %></h2>
+  <h2>Ship <%= index +1 %> type: <%= ship.type %></h2>
+  <h2>Ship <%= index +1 %> booty: <%= ship.booty %></h2>
 <% end %>
 
 
