@@ -6,7 +6,7 @@ class Pirate
 
   def initialize
 
-  def self.all 
+  def self.all
     PIRATES
   end
 
