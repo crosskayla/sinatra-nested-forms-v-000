@@ -9,5 +9,5 @@ class Ship
   def self.all
     SHIPS
   end
-  
+
 end
